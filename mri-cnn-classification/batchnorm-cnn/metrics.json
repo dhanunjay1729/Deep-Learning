@@ -1,0 +1,41 @@
+{
+  "model": "CNN with Batch Normalization",
+  "parameters": 1022692,
+  "best_validation_epoch": 17,
+  "training_accuracy": 0.7364501953125,
+  "test_accuracy": 0.5355746746063232,
+  "test_loss": 0.9277653098106384,
+  "confusion_matrix": [
+    [
+      15,
+      0,
+      143,
+      21
+    ],
+    [
+      0,
+      0,
+      10,
+      2
+    ],
+    [
+      4,
+      0,
+      630,
+      6
+    ],
+    [
+      4,
+      0,
+      404,
+      40
+    ]
+  ],
+  "split_sizes": {
+    "train": 8192,
+    "validation": 2048,
+    "test": 1279
+  },
+  "macro_f1": 0.24822722551051876,
+  "balanced_accuracy": 0.28936489924181963
+}

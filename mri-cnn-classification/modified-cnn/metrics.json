@@ -1,0 +1,41 @@
+{
+  "model": "Modified CNN",
+  "parameters": 1019908,
+  "best_validation_epoch": 50,
+  "training_accuracy": 0.878173828125,
+  "test_accuracy": 0.7091477513313293,
+  "test_loss": 0.6711726784706116,
+  "confusion_matrix": [
+    [
+      139,
+      0,
+      5,
+      35
+    ],
+    [
+      0,
+      12,
+      0,
+      0
+    ],
+    [
+      30,
+      0,
+      488,
+      122
+    ],
+    [
+      55,
+      0,
+      125,
+      268
+    ]
+  ],
+  "split_sizes": {
+    "train": 8192,
+    "validation": 2048,
+    "test": 1279
+  },
+  "macro_f1": 0.7699089401147344,
+  "balanced_accuracy": 0.7843126496408619
+}
