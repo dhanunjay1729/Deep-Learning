@@ -1,0 +1,68 @@
+{
+  "hourly_observations": 70129,
+  "train_end": 49090,
+  "validation_end": 56103,
+  "test_targets": 14026,
+  "invalid_wind_values": 18,
+  "epochs_per_configuration": 5,
+  "final_history_hours": 12,
+  "final_hidden_units": 128,
+  "final_validation": {
+    "history_hours": 12,
+    "hidden_units": 128,
+    "parameters": 17153,
+    "selected_epoch": 4,
+    "validation_mae": 0.49779364466667175,
+    "validation_mse": 0.4394809603691101,
+    "persistence_mae": 0.6235945224761963,
+    "training_seconds": 17.653298777999964
+  },
+  "test_results": [
+    {
+      "model": "Persistence",
+      "history_hours": 1,
+      "hidden_units": 0,
+      "parameters": 0,
+      "test_mae": 0.6813323497772217,
+      "test_mse": 0.8985580801963806
+    },
+    {
+      "model": "Baseline SimpleRNN",
+      "history_hours": 24,
+      "hidden_units": 32,
+      "parameters": 1217,
+      "test_mae": 0.5556225180625916,
+      "test_mse": 0.5327425003051758
+    },
+    {
+      "model": "Selected SimpleRNN",
+      "history_hours": 12,
+      "hidden_units": 128,
+      "parameters": 17153,
+      "test_mae": 0.5086078643798828,
+      "test_mse": 0.45920661091804504
+    }
+  ],
+  "gradient_results": [
+    {
+      "history_hours": 12,
+      "earliest_gradient": 1.8228300177725032e-05,
+      "final_gradient": 0.0004959072102792561,
+      "earliest_to_final_ratio": 0.03675748035311699
+    },
+    {
+      "history_hours": 48,
+      "earliest_gradient": 2.6377010797773437e-08,
+      "final_gradient": 0.0004996282514184713,
+      "earliest_to_final_ratio": 5.279327160678804e-05
+    },
+    {
+      "history_hours": 96,
+      "earliest_gradient": 2.3305798263484334e-11,
+      "final_gradient": 0.0004974293988198042,
+      "earliest_to_final_ratio": 4.685247390057157e-08
+    }
+  ],
+  "test_first_target": "2015-05-27 15:00:00",
+  "test_last_target": "2017-01-01 00:00:00"
+}

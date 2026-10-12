@@ -1,0 +1,83 @@
+{
+  "test_accuracy": 0.8394860953000488,
+  "test_macro_f1": 0.8275853361591162,
+  "best_validation_epoch": 30,
+  "best_validation_loss": 1.487434669569427,
+  "training_seconds": 717.8479183600001,
+  "train_images": 1020,
+  "validation_images": 1020,
+  "test_images": 6149,
+  "epochs": 30,
+  "selected_indices": [
+    1,
+    2,
+    4,
+    5,
+    0
+  ],
+  "selected_true_classes": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "selected_predicted_classes": [
+    0,
+    0,
+    0,
+    0,
+    18
+  ],
+  "rgb_permutation": [
+    {
+      "channel": "Red",
+      "mean_probability_drop": 0.08714699000120163,
+      "repeat_std": 0.05430573760312228
+    },
+    {
+      "channel": "Green",
+      "mean_probability_drop": 0.04616141319274902,
+      "repeat_std": 0.054154993969477094
+    },
+    {
+      "channel": "Blue",
+      "mean_probability_drop": 0.17459771260619164,
+      "repeat_std": 0.08397513623952833
+    }
+  ],
+  "explanation_comparison": [
+    {
+      "example": 1,
+      "correct": true,
+      "spearman_signed_occlusion_shap": -0.002419406665792565,
+      "spearman_occlusion_scales": 0.6925262310036695
+    },
+    {
+      "example": 2,
+      "correct": true,
+      "spearman_signed_occlusion_shap": 0.03024067483635442,
+      "spearman_occlusion_scales": 0.7419832721995253
+    },
+    {
+      "example": 3,
+      "correct": true,
+      "spearman_signed_occlusion_shap": 0.00657146898518498,
+      "spearman_occlusion_scales": 0.5010918901873826
+    },
+    {
+      "example": 4,
+      "correct": true,
+      "spearman_signed_occlusion_shap": 0.02015072083075522,
+      "spearman_occlusion_scales": 0.6781729797349603
+    },
+    {
+      "example": 5,
+      "correct": false,
+      "spearman_signed_occlusion_shap": 0.001799204202192686,
+      "spearman_occlusion_scales": 0.6919839819107043
+    }
+  ],
+  "shap_background_images": 50,
+  "shap_samples": 200
+}
