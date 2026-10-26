@@ -1,0 +1,6 @@
+test_index,true_class,predicted_class,predicted_probability,correct
+1,1,1,0.5249243378639221,True
+20,2,2,0.5474138855934143,True
+63,3,3,0.3423413634300232,True
+83,4,4,0.29497507214546204,True
+0,1,19,0.1768788993358612,False

@@ -1,0 +1,86 @@
+{
+  "test_accuracy": 0.8399739795088632,
+  "test_macro_f1": 0.8269904325943407,
+  "best_validation_epoch": 30,
+  "best_validation_loss": 1.4873975089952058,
+  "epochs": 30,
+  "train_images": 1020,
+  "validation_images": 1020,
+  "test_images": 6149,
+  "training_seconds": 637.773415424,
+  "gpu": "Tesla T4",
+  "selected_examples": [
+    {
+      "test_index": 1,
+      "true_class": 1,
+      "predicted_class": 1,
+      "predicted_probability": 0.5249243378639221,
+      "correct": true
+    },
+    {
+      "test_index": 20,
+      "true_class": 2,
+      "predicted_class": 2,
+      "predicted_probability": 0.5474138855934143,
+      "correct": true
+    },
+    {
+      "test_index": 63,
+      "true_class": 3,
+      "predicted_class": 3,
+      "predicted_probability": 0.3423413634300232,
+      "correct": true
+    },
+    {
+      "test_index": 83,
+      "true_class": 4,
+      "predicted_class": 4,
+      "predicted_probability": 0.29497507214546204,
+      "correct": true
+    },
+    {
+      "test_index": 0,
+      "true_class": 1,
+      "predicted_class": 19,
+      "predicted_probability": 0.1768788993358612,
+      "correct": false
+    }
+  ],
+  "native_map_shapes": {
+    "inception4e": [
+      14,
+      14
+    ],
+    "inception5b": [
+      7,
+      7
+    ]
+  },
+  "gradcam_reference_max_errors": {
+    "inception4e": 1.862645149230957e-09,
+    "inception5b": 0.0
+  },
+  "converted_relu_blocks": 59,
+  "relu_conversion_max_logit_difference": 0.0,
+  "guided_gradcam_reference_max_error": 2.9103830456733704e-10,
+  "target_comparison": [
+    {
+      "role": "True class",
+      "class_id_one_based": 1,
+      "probability": 0.15530405938625336,
+      "native_cam_max": 0.025840001180768013
+    },
+    {
+      "role": "Predicted class",
+      "class_id_one_based": 19,
+      "probability": 0.1768788993358612,
+      "native_cam_max": 0.014908810146152973
+    },
+    {
+      "role": "Runner-up",
+      "class_id_one_based": 1,
+      "probability": 0.15530405938625336,
+      "native_cam_max": 0.025840001180768013
+    }
+  ]
+}
